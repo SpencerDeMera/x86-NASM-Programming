@@ -18,7 +18,7 @@
 //  Date program began: 11-22-2020
 //  Date of last update: 11-24-2020
 //  Comments reorganized: 11-24-2020
-//  Files in the program: triangle.c, area.asm, isfloat.cpp, atof.asm, run.sh
+//  Files in the program: triangle.c, area.asm, isfloat.cpp, run.sh
 
 // Purpose
 //  Compute the area of a triangle given userinput.
@@ -28,7 +28,7 @@
 //  File name: triangle.c
 //  Language: C
 //  Optimal print specification: 7 point font, monospace, 136 columns, 8½x11 paper
-//  Compile: gcc -c -Wall -m64 -no-pie -o main.o main.c -std=c11
+//  Compile: gcc -c -Wall -m64 -no-pie -o triangle.o triangle.c -std=c11
 //  Link: gcc -m64 -no-pie -o area.out -std=c11 area.o isfloat.o atof.o triangle.o 
 
 // Execution: ./area.out
